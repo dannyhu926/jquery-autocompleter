@@ -692,7 +692,9 @@ $(function () {
 
         // max results
         limit: 5,
-
+        
+        cache: false,
+        
         callback: function (value, index, selected) {
             if (selected) {
                 $('.icon').css('background-color', selected.hex);
